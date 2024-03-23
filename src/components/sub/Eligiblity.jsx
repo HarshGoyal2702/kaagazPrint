@@ -8,10 +8,11 @@ const Eligibility = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 mb-8">
+    <div className="min-h-[50vh] bg-blue-950 shadow-md">
+      <div className="container mx-auto px-4 mb-8 bg-blue-950 py-12 text-white">
       <h1 className="text-3xl font-bold mb-8">Eligiblity Criteria</h1>
      <div className="flex gap-5 flex-col">
-     <div className="collapse collapse-arrow bg-base-200 shadow-md">
+     <div className="collapse collapse-arrow bg-base-200 shadow-md text-black">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
         Minority
@@ -21,7 +22,7 @@ const Eligibility = () => {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow bg-base-200 text-black">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
         Business Users
@@ -31,7 +32,7 @@ const Eligibility = () => {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200">
+      <div className="collapse collapse-arrow bg-base-200 text-black">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium">
         Termination and Refusal of Registration
@@ -42,6 +43,7 @@ const Eligibility = () => {
         </div>
       </div>
      </div>
+    </div>
     </div>
   );
 };

@@ -17,7 +17,6 @@ const Home = () => {
       <ServicesOverview/>
       <Eligibility/>
       <Licence/>
-      <Pricing/>
     </div>
   )
 }
