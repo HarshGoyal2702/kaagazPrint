@@ -7,11 +7,13 @@ import ServicesOverview from '../sub/ServicesOverview'
 import Eligibility from '../sub/Eligiblity'
 import Licence from '../sub/License'
 import Pricing from '../sub/Pricing'
+import About from './About'
 const Home = () => {
   return (
     <div>
       <Navbar/>
       <Hero/>
+      <About/>
       <T_U/>
       <A_of_Terms/>
       <ServicesOverview/>
