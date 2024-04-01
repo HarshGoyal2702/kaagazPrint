@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;700;900&display=swap');
-
 body{
   font-family: "Montserrat" , sans-serif;
+
+}
+.upper{
+  box-shadow: 6px 4px 1px rgba(94, 15, 197, 0.6) ;
+}
+.upper:hover{
+  box-shadow: none;
+  transition:all cubic-bezier(0.19, 1, 0.22, 1) 0.8s ;
+}
+/* .hello{
+  background-image: url("./assets/blue-curve-abstract-background-with-design-space.jpg") ;
+  background-position: center;
+  object-fit: cover;
+} */
+/* .logo_image{
+  mix-blend-mode:exclusion;
+} */
+#tsparticles {
+  height: 100vh;
+  width: auto;
+}
+
+#carouselExampleAutoplaying{
+  height:50vh;
+  width:50%;
 }

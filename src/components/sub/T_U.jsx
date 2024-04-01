@@ -7,7 +7,7 @@ const TermsOfUse = () => {
       <p className="text-base mb-4">
           Thank you for choosing KagazPrints, provided by Kagaz Prints. Please
           carefully review these Terms of Use before utilizing our services.
-          "KagazPrints" is a trademark owned by Kagaz Prints, a company
+          "KagaazPrints" is a trademark owned by Kagaz Prints, a company
           incorporated under the [Applicable Laws] with its registered office
           located at [Your Address]. The domain www.kagazprints.com is the
           property of Kagaz Prints.
