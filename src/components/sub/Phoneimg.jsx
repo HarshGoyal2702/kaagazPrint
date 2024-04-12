@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import image1 from '../../assets/iphone_1.jpg';
-import image2 from '../../assets/iphone_2.jpg';
-import image3 from '../../assets/iphone_3.jpg';
-import image4 from '../../assets/iphone_4.jpg';
+import image1 from '../../assets/Loader/pic1.jpg';
+import image2 from '../../assets/Loader/pic2.jpg';
+import image3 from '../../assets/Loader/pic3.jpg';
+import image4 from '../../assets/Loader/pic4.jpg';
+
 const Phoneimg = () => {
   const images = [
     image1,
@@ -38,12 +39,13 @@ const Phoneimg = () => {
     <div 
       onMouseEnter={handleMouseEnter} 
       onMouseLeave={handleMouseLeave}
+      className='object-contain '
     >
       <img 
         src={images[currentImageIndex]} 
         alt={`Image ${currentImageIndex + 1}`} 
-        height={250}
-        width={250}
+        height="100%"
+        width="100%"
       />
     </div>
   );

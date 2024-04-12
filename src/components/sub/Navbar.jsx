@@ -4,15 +4,15 @@ import { useState } from "react";
 
 
 const Navbar = () => {
-  
-const Sidebar = () => {
-  return (
-    <div className="bg-gray-800 h-screen w-64 text-white">
-      {/* Sidebar content goes here */}
-    </div>
-  );
-};
-  
+
+  const Sidebar = () => {
+    return (
+      <div className="bg-gray-800 h-screen w-64 text-white">
+        {/* Sidebar content goes here */}
+      </div>
+    );
+  };
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -20,7 +20,7 @@ const Sidebar = () => {
   };
   return (
     <>
-      <div className=" bg-gray-800 navbar fixed top-0  left-0 w-full display  shadow-md px-6 w-screen  overflow-hidden  ">
+      <div className=" bg-gray-800 navbar fixed top-0  left-0 w-full display  shadow-md px-6  overflow-hidden z-50">
         <div className="navbar-start ">
           <img className="w-12 logo_image" src={logo} alt="logo" />
           <a className="btn btn-ghost text-xl text-white hover:text-purple-600 hover:bg-gray-800">
@@ -37,14 +37,6 @@ const Sidebar = () => {
             <li>
               {" "}
               <a className="text-white  hover:bg-purple-700 ">About Us</a>
-              {/* <details>
-          <summary className=" text-white hover:bg-purple-700 hover:text-white">Benefits</summary>
-          <ul className=" p-2">
-            <li className=" hover:bg-purple-700 hover:text-white rounded-md"><a>Educational Purposes</a></li>
-            <li className="hover:bg-purple-700 hover:text-white rounded-md"><a>Industrial Purposes</a></li>
-            <li className="hover:bg-purple-700 hover:text-white rounded-md"><a>Personal Purposes</a></li>
-          </ul>
-        </details> */}
             </li>
             <li>
               <a className=" text-white hover:bg-purple-700 hover:text-white ">
@@ -60,29 +52,35 @@ const Sidebar = () => {
               Contact Us
             </a>
           </div>
-          <button
-            className="text-white focus:outline-none md:hidden"
-            onClick={toggleSidebar}
-          >
-            {/* Hamburger Icon */}
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
-          </button>
-          {/* <div className="text-white text-xl"> <img className="w-12 logo_image" src={logo} alt="logo" /></div> */}
-          {/* Additional Navbar items can be placed here */}
-          {/* <Sidebar isOpen={isOpen} /> */}
+          <div className="drawer drawer-end md:hidden justify-end">
+            <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+            <div className="drawer-content">
+              {/* Page content here */}
+              <label htmlFor="my-drawer-4" className="drawer-button btn btn-primary">Menu</label>
+            </div>
+            <div className="drawer-side">
+              <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
+              <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+                {/* Sidebar content here */}
+                <ul >
+                  <li>
+                    <a className="">
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    {" "}
+                    <a className="">About Us</a>
+                  </li>
+                  <li>
+                    <a className="">
+                      Services{" "}
+                    </a>
+                  </li>
+                </ul>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </>

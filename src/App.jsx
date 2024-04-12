@@ -1,13 +1,12 @@
 import './App.css'
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Main from './pages/Main'
-import Banner from './components/main/Banner';
-import Contactus from './components/main/contactus'
-import Footer from './components/main/Footer'
+import Page2 from "./pages/Page2"
 function App() {
   return <Router>
     <Routes>
-      <Route path='/' element=<Main/> />
+      <Route path='/' element={<Main />} />
+      <Route path="/terms" element={<Page2 />} />
     </Routes>
   </Router>
 }
