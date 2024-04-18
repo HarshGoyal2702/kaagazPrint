@@ -13,6 +13,7 @@
     "@gsap/react": "^2.1.0",
     "bootstrap": "^5.3.3",
     "framer-motion": "^11.0.22",
+    "gsap": "^3.12.5",
     "localforage": "^1.10.0",
     "lottie-web": "^5.12.2",
     "match-sorter": "^6.3.4",

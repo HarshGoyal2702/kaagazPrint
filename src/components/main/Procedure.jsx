@@ -4,8 +4,8 @@ import Phoneimg from "../sub/Phoneimg";
 
 export default function Procedure() {
   return (
-    <div className="w-full h-screen flex items-center justify-center">
-      <div className="w-full container h-160vh p-10 pt-7 bg-white md:text-wrap  flex flex-col md:flex-row items-center justify-between">
+    <div className="w-full  flex items-center justify-center">
+      <div className="w-full container  p-10 pt-7 bg-white md:text-wrap  flex flex-col md:flex-row items-center justify-evenly ">
         <div className="left flex flex-col">
           <div className="mt-5 text-3xl text-black font-semibold">
             Just get your Prints in 3 simple steps
@@ -37,7 +37,7 @@ export default function Procedure() {
           <img src={Women} alt="women" height={10} width={60} />
         </div>
         </div> */}
-        <div className="right">
+        <div className="right mt-7">
           <div className="mockup-phone">
             <div className="camera"></div>
             <div className="display h-[500px] w-[280px]">

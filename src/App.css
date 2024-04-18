@@ -115,7 +115,7 @@ body{
 }
 
 .scroll-down h3{
-  font-size: 0.7vw;
+  /* font-size: 0.7vw; */
 }
 
 .scroll-p{
@@ -130,4 +130,66 @@ body{
   height: 2px;
   border-radius: 50px;
   background-color: #fff;
+}
+
+.gdf:hover .test{
+  transform: translateX(-100%);
+  transition: all cubic-bezier(0.19, 1, 0.22, 1).3s;
+  /* border: none;
+  box-shadow: none;
+  text-decoration: none;
+  background-color: none;
+  text-shadow: none; */
+  outline: none;
+
+}
+.gdf:hover .bag{
+  transform: translateX(-100%);
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)1s ease;
+}
+.kite:hover .title{
+  transform: translateY(-100%);
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+  border: none;
+  box-shadow: none;
+
+}
+.kite:hover .titles{
+  transform: translateY(-100%);
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)1s ease;
+}
+
+.moving-in{
+  animation-name: move ;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function:  linear;
+
+}
+.lower .moving-in{
+  animation-name: mo;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function:  linear;
+}
+@keyframes mo {
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(100%);
+  }
+  
+}
+@keyframes move {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+  
+}
+::selection{
+  color: #e5723d;
 }

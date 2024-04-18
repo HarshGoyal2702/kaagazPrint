@@ -10,8 +10,8 @@ import OrderCancel from '../components/sub/OrderCancel'
 import PrintingService from '../components/sub/PrintingService'
 import License from '../components/sub/License'
 import Navbar from '../components/sub/Navbar'
-import T_U from "../components/sub/T_U"
-import Footer from '../components/main/Footer'
+import Footer from "../components/main/Footer"
+
 
 
 const Page2 = () => {
@@ -19,7 +19,7 @@ const Page2 = () => {
     <div>
       <Navbar/>
       <TBanner/>
-      <T_U/>
+      {/* <T_U/> */}
       <A_of_Terms/>
       <ServicesOverview/>
       <Eligibility/>
@@ -29,7 +29,7 @@ const Page2 = () => {
       <OrderLimit/>
       <OrderCancel/>
       <PrintingService/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }

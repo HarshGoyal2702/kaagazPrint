@@ -17,7 +17,7 @@ const sqaureVariant = {
 };
 const Banner = () => {
   return (
-    <div className="hello overflow-hidden bg-[#F1F5FE] md:text-wrap w-screen h-screen flex flex-col md:flex-row items-center justify-between p-20  pt-32 md:p-36">
+    <div className="  bg-[#F1F5FE]  h-auto md:text-wrap w-screen  flex flex-col md:flex-row items-center justify-between p-20  pt-32 md:p-36">
       <div
         className="left flex flex-col md:font-light w-full md:w-[50%]"
       >
@@ -47,16 +47,16 @@ const Banner = () => {
           </p>
         </div>
         <div className="relative mt-16 w-60 cursor-pointer ">
-          <div className="upper flex gap-3 w-52 h-10 md:h-16 md:w-60 text-[2.5vh] font-semibold bg-white rounded-full text-center items-center justify-center text-black mb-2 -mt-10 md:mt-6">
+          <div className="upper flex gap-3 w-52  md:w-60 text-[2.5vh] font-semibold bg-white rounded-full text-center items-center justify-center text-black mb-2 -mt-10 md:mt-6">
             Start Printing <FaDownload />
           </div>
-          <div className="lower absolute hover:scale-50 top-0 left-0 h-10  bg-purple-500  rounded-full -z-10 w-[100%]">
+          <div className="lower hover:scale-50  bg-purple-500  rounded-full -z-10 w-[100%]">
             {" "}
           </div>
         </div>
       </div>
-      <div className="right w-full md:w-[50%] -mb-2 md:mb-7 mt-10 md:mt-0">
-        <div className="images w-full relative flex items-center justify-center">
+      <div className=" w-full md:w-[50%]  md:mb-7  md:mt-0">
+        <div className=" w-full  relative flex items-center justify-center">
           <img
             src={print3}
             className="min-w-[12rem] md:min-w-72 border-8 shadow-lg object-fit border-white"

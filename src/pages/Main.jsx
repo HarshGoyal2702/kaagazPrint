@@ -5,7 +5,7 @@ import Navbar from "../components/sub/Navbar";
 import Loader from "../components/main/Loader";
 const Main = () => {
   return (
-    <div className='w-full h-screen'>
+    <div className='w-screen h-screen'>
       <Navbar />
       <Loader />
       <Home />

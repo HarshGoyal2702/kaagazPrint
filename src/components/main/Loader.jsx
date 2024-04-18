@@ -3,7 +3,7 @@ import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import ScrollTrigger from 'gsap/ScrollTrigger'
 gsap.registerPlugin(useGSAP);
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 
 import pic1 from "../../assets/Loader/pic1.jpg"
@@ -16,13 +16,14 @@ const Loader = () => {
 
     useGSAP(() => {
         var tl = gsap.timeline({
-            scrollTrigger: {
+            ScrollTrigger: {
                 trigger: ".part-1",
                 start: "50% 50%",
-                end: "190% 50%",
+                end: "140% 40%",
                 scrub: true,
-                // markers:true,
+                markers:true,
                 pin: true,
+                
             }
         })
 
@@ -57,94 +58,97 @@ const Loader = () => {
 
     }, { scope : box })
 return (
-    <div id='main' className='z-50' ref={box}>
-        <div className="part-1">
-            <div className="content-part-1">
-                <div className="rotate-div">
-                    <div id="row-div-1" className="row-div">
-                        <div className="img-div">
-                            <img src={pic1} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic2} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic3}alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic4} alt="" />
-                        </div>
-                    </div>
-                    <div id="row-div-2" className="row-div">
-                        <div className="img-div">
-                            <img src={pic1} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic2} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic3}alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic4} alt="" />
-                        </div>
-                    </div>
-                    <div id="row-div-3" className="row-div">
-                    <div className="img-div">
-                            <img src={pic1} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic2} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic3}alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic4} alt="" />
-                        </div>
-                    </div>
-                    <div id="row-div-4" className="row-div">
-                    <div className="img-div">
-                            <img src={pic1} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic2} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic3}alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic4} alt="" />
-                        </div>
-                    </div>
-                    <div id="row-div-5" className="row-div">
-                    <div className="img-div">
-                            <img src={pic1} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic2} alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic3}alt="" />
-                        </div>
-                        <div className="img-div">
-                            <img src={pic4} alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="overlay-div">
-                    <h1>Kagaz<span className='text-gray-500'>Prints</span></h1>
-                    <div className="scroll-down">
-                        <h3>SCROLL DOWN</h3>
-                        <div className="scroll-p">
-                            <div className="scrolling"></div>
-                        </div>
-                    </div>
-                </div>
+  <div id="main" className="z-50  " ref={box}>
+    <div className="part-1 ">
+      <div className="content-part-1">
+        <div className="rotate-div">
+          <div id="row-div-1" className="row-div">
+            <div className="img-div">
+              <img src={pic1} alt="" />
             </div>
+            <div className="img-div">
+              <img src={pic2} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic3} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic4} alt="" />
+            </div>
+          </div>
+          <div id="row-div-2" className="row-div">
+            <div className="img-div">
+              <img src={pic1} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic2} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic3} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic4} alt="" />
+            </div>
+          </div>
+          <div id="row-div-3" className="row-div">
+            <div className="img-div">
+              <img src={pic1} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic2} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic3} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic4} alt="" />
+            </div>
+          </div>
+          <div id="row-div-4" className="row-div">
+            <div className="img-div">
+              <img src={pic1} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic2} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic3} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic4} alt="" />
+            </div>
+          </div>
+          <div id="row-div-5" className="row-div">
+            <div className="img-div">
+              <img src={pic1} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic2} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic3} alt="" />
+            </div>
+            <div className="img-div">
+              <img src={pic4} alt="" />
+            </div>
+          </div>
         </div>
+        <div className="overlay-div ">
+          <h1 className="md:text-6xl text-3xl">
+            Kagaz<span className="text-gray-500">Prints</span>
+          </h1>
+          <div className="scroll-down">
+            <h3 className=" md:text-xl text-sm">SCROLL DOWN</h3>
+            <div className="scroll-p sm:w-[6vw] w-[17vw]">
+              <div className="scrolling"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-)
+  </div>
+);
 }
+
 
 export default Loader

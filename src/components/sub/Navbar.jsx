@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/kaagaz_logo.jpg";
+import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 
 
@@ -20,28 +21,33 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className=" bg-gray-800 navbar fixed top-0  left-0 w-full display  shadow-md px-6  overflow-hidden z-50">
-        <div className="navbar-start ">
-          <img className="w-12 logo_image" src={logo} alt="logo" />
-          <a className="btn btn-ghost text-xl text-white hover:text-purple-600 hover:bg-gray-800">
-            KaagazPrints
-          </a>
+      <div className=" bg-gray-800 navbar justify-between fixed top-0  left-0 w-screen display  shadow-md px-6  overflow-hidden z-50">
+        <div className="navbar-start gap-2  ">
+          <img className="md:w-12 w-7 logo_image" src={logo} alt="logo" />
+          <div className="flex md:max-w-[12vw] max-w-fit kite  overflow-hidden">
+            {" "}
+            <a className="md:h-[4vh] h-[3.3vh] max-w-fit font-bold md:text-xl text-lg border-none  text-white bg-none title">
+              KaagazPrints{" "}
+              <a className="  md:text-xl text-lg  text-white border-none  titles ">
+                KaagazPrints
+              </a>
+            </a>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex items-center ">
-          <ul className="menu menu-horizontal px-1 gap-3">
-            <li>
-              <a className="text-white hover:bg-purple-700 hover:text-white">
-                Home
-              </a>
+          <ul className="menu menu-horizontal shadow-none px-1 gap-3">
+            <li className=" flex flex-col gdf overflow-hidden w-20 h-9">
+              <a className="text-white test w-full  ">Home</a>
+              <a className="text-white bag w-full">Home</a>
             </li>
-            <li>
+            <li className="flex flex-col gdf overflow-hidden w-28 h-9 ">
               {" "}
-              <a className="text-white  hover:bg-purple-700 ">About Us</a>
+              <a className="text-white test ">About Us</a>
+              <a className="text-white bag   ">About Us</a>
             </li>
-            <li>
-              <a className=" text-white hover:bg-purple-700 hover:text-white ">
-                Services{" "}
-              </a>
+            <li className="flex flex-col gdf overflow-hidden w-20 h-9">
+              <a className=" text-white test">Services </a>
+              <a className=" text-white bag ">Services </a>
             </li>
           </ul>
         </div>
@@ -56,26 +62,31 @@ const Navbar = () => {
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content">
               {/* Page content here */}
-              <label htmlFor="my-drawer-4" className="drawer-button btn btn-primary">Menu</label>
+              <label
+                htmlFor="my-drawer-4"
+                className="drawer-button text-xl text-white bg-none "
+              >
+                <FiMenu />
+              </label>
             </div>
             <div className="drawer-side">
-              <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
+              <label
+                htmlFor="my-drawer-4"
+                aria-label="close sidebar"
+                className="drawer-overlay"
+              ></label>
               <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
                 {/* Sidebar content here */}
-                <ul >
+                <ul>
                   <li>
-                    <a className="">
-                      Home
-                    </a>
+                    <a className="">Home</a>
                   </li>
                   <li>
                     {" "}
                     <a className="">About Us</a>
                   </li>
                   <li>
-                    <a className="">
-                      Services{" "}
-                    </a>
+                    <a className="">Services </a>
                   </li>
                 </ul>
               </ul>
