@@ -8,8 +8,8 @@ const Eligibility = () => {
   };
 
   return (
-    <div className="min-h-[50vh] bg-blue-950 shadow-md">
-      <div className="container mx-auto px-4 mb-8 bg-blue-950 py-12 text-white">
+    <div className="min-h-[50vh] bg-white shadow-md">
+      <div className="container mx-auto px-4 mb-8 bg-white py-12 text-black">
       <h1 className="text-3xl font-bold mb-8">Eligiblity Criteria</h1>
      <div className="flex gap-5 flex-col">
      <div className="collapse collapse-arrow bg-base-200 shadow-md text-black">

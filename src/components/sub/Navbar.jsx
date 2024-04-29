@@ -38,9 +38,9 @@ const Navbar = () => {
         <div className="navbar-center justify-between hidden lg:flex items-center">
           <ul className=" menu-horizontal shadow-none px-1 gap-3 ">
             <li className=" overflow-hidden  flex items-center justify-center w-20 h-9 hover:font-bold ">
-              <a className="text-black w-full hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+              <Link to="/" className="text-black w-full hover:text-pink-600 hover:border-b-2 border-pink-600 ">
                 Home
-              </a>
+              </Link>
             </li>
             <li className=" overflow-hidden w-20 h-9 flex items-center justify-center  hover:font-bold">
               {" "}
@@ -66,12 +66,12 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="drawer drawer-end md:hidden justify-end">
-            <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+            <input id="my-drawer-4" type="checkbox" className="drawer-toggle  " />
             <div className="drawer-content">
               {/* Page content here */}
               <label
                 htmlFor="my-drawer-4"
-                className="drawer-button text-xl text-white bg-none "
+                className="drawer-button text-xl text-black bg-none "
               >
                 <FiMenu />
               </label>
@@ -82,11 +82,13 @@ const Navbar = () => {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+              <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content text-sm">
                 {/* Sidebar content here */}
                 <ul>
                   <li>
-                    <a className="">Home</a>
+                    <Link to="/" className="">
+                      Home
+                    </Link>
                   </li>
                   <li>
                     {" "}

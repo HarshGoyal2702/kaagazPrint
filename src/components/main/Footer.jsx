@@ -85,9 +85,10 @@ import Logo from "../../assets/logo.png";
 import payments from "../../assets/payment/visa.png";
 import footer from "../../assets/payment/printing-2.svg";
 import { Link } from "react-router-dom";
+import Privacy from './../sub/Privacy';
 const Footer = () => {
   return (
-    <div className="bg-#025286">
+    <div className="bg-#6757a6">
       <footer className="footer p-10 text-gray-400 cursor-pointer  bg-#025286 ">
         <aside className="leading-none">
           <img src={Logo} alt="logo" className="w-14 h-14 rounded-lg " />
@@ -166,12 +167,12 @@ const Footer = () => {
           >
             Terms of use
           </Link>
-          <a
-            href="/terms"
+          <Link
+            to="/terms"
             className="link link-hover hover:text-gray-200 transition-all duration-[1] ease-linear"
           >
-            Privacy policy
-          </a>
+            Privacy of use
+          </Link>
           <a
             href="/terms"
             className="link link-hover hover:text-gray-200 transition-all duration-[1] ease-linear"
