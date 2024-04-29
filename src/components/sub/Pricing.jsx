@@ -2,8 +2,8 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="bg-blue-950 sm:flex block  items-center justify-center min-h-full text-bold">
-      <div className="container mx-auto px-4 py-8 text-white flex justify-between  rounded-md">
+    <div className="bg-white sm:flex block  items-center justify-center min-h-full text-bold">
+      <div className="container mx-auto px-4 py-8 text-black flex justify-between  rounded-md">
         <div className="flex items-center mr-10 flex-col">
           <h1 className="font-bold text-3xl text-center mb-4 capitalize">
             Pricing

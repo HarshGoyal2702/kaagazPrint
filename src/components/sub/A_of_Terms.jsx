@@ -2,7 +2,7 @@ import React from "react";
 
 const A_of_Terms = () => {
   return (
-    <div className="min-h-screen bg-blue-950 text-white">
+    <div className="min-h-screen bg-white text-black">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4">Acceptance of Terms</h1>
         <p className="text-base mb-4">
