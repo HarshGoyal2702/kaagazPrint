@@ -38,18 +38,18 @@ const Navbar = () => {
         <div className="navbar-center justify-between hidden lg:flex items-center">
           <ul className=" menu-horizontal shadow-none px-1 gap-3 ">
             <li className=" overflow-hidden  flex items-center justify-center w-20 h-9 hover:font-bold ">
-              <Link to="/" className="text-black w-full hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+              <Link to="/" className="text-black w-text hover:text-pink-600 hover:border-b-2 border-pink-600 ">
                 Home
               </Link>
             </li>
             <li className=" overflow-hidden w-20 h-9 flex items-center justify-center  hover:font-bold">
               {" "}
-              <a className=" text-black w-full hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+              <a className=" text-black w-text hover:text-pink-600 hover:border-b-2 border-pink-600 ">
                 About Us
               </a>
             </li>
             <li className="overflow-hidden w-20 h-9 flex items-center justify-center  hover:font-bold">
-              <a className=" text-black w-full hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+              <a className=" text-black w-text hover:text-pink-600 hover:border-b-2 border-pink-600 ">
                 Services{" "}
               </a>
             </li>
@@ -57,10 +57,10 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-end justify-end">
-          <div className="navbar-end h-6 hidden lg:flex items-center">
+          <div className="navbar-end  hidden lg:flex items-center">
             <Link
               to={"/"}
-              className="btn h-5 text-center bg-pink-700 text-white  hover:text-white  hover:bg-pink-500 shadow-slate-500 text-lg "
+              className="btn  text-center bg-pink-700 text-white  hover:text-white  hover:bg-pink-500 shadow-slate-500 b  "
             >
               Contact Us
             </Link>
