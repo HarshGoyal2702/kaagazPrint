@@ -1,7 +1,6 @@
 // // import React from "react";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import unDraw from "../../assets/undraw.svg";
 // import ContactUs from "./contactus";
 // const Footer = () => {
 //   return (
@@ -85,10 +84,11 @@ import React from "react";
 import Logo from "../../assets/logo.png";
 import payments from "../../assets/payment/visa.png";
 import footer from "../../assets/payment/printing-2.svg";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="bg-black">
-      <footer className="footer p-10 text-gray-400 cursor-pointer  bg-black ">
+    <div className="bg-#025286">
+      <footer className="footer p-10 text-gray-400 cursor-pointer  bg-#025286 ">
         <aside className="leading-none">
           <img src={Logo} alt="logo" className="w-14 h-14 rounded-lg " />
           <p className="hover:text-gray-200 mt-2 ">KaagazPrints Pvt Ltd. </p>
@@ -160,12 +160,12 @@ const Footer = () => {
           <h6 className="footer-title hover:text-gray-200 transition-all duration-[0.3] ease-linear">
             Legal
           </h6>
-          <a
-            href="/terms"
+          <Link
+            to="/terms"
             className="link link-hover hover:text-gray-200 transition-all duration-[1] ease-linear"
           >
             Terms of use
-          </a>
+          </Link>
           <a
             href="/terms"
             className="link link-hover hover:text-gray-200 transition-all duration-[1] ease-linear"

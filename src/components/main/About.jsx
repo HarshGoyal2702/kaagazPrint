@@ -1,11 +1,11 @@
-import React from "react";
+// import React from "react";
 import pic1 from "../../assets/Loader/pic1.jpg";
 import pic2 from "../../assets/Loader/pic2.jpg";
-import pic3 from "../../assets/Loader/pic3.jpg";
+// import pic3 from "../../assets/Loader/pic3.jpg";
 
 const About = () => {
   return (
-    <div className="w-full md:h-screen h-[1700px] flex flex-col  justify-evenly bg-[#F1F5FE]  md:flex-row  ">
+    <div className="w-full md:h-screen h-[1700px] flex flex-col overflow-hidden justify-evenly bg-[#F1F5FE]  md:flex-row  ">
       <div className="left  md:w-[50%]  md:h-screen  w-[0] h-[0]  ">
         <div className="relative w-[50%] h-[50%] top-[50%] left-[50%]">
           <div className="md:w-[260px]  h-0 w-0  absolute object-contain right-[30%] rounded-xl -top-[20%] md:h-[350px] bg-blue-500">
@@ -67,9 +67,9 @@ const About = () => {
                     y2="53.2037"
                     gradientUnits="userSpaceOnUse"
                   >
-                    <stop offset="0" stop-color="#EF5C92"></stop>
+                    {/* <stop offset="0" stop-color="#EF5C92"></stop>
                     <stop offset="0.247843" stop-color="#A85CC5"></stop>
-                    <stop offset="1" stop-color="#6698FB"></stop>
+                    <stop offset="1" stop-color="#6698FB"></stop> */}
                   </linearGradient>
                 </defs>
               </svg>

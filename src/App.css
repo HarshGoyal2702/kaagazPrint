@@ -96,11 +96,16 @@ body{
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-color: #00000000;
+  background-color: #23222200;
   font-size: 5vw;
 }
 .overlay-div h1{
   opacity: 0;
+}
+
+.hello{
+  background-color : white;
+  box-shadow: none;
 }
 
 .scroll-down{

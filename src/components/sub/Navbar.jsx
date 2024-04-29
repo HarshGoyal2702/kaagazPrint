@@ -1,7 +1,8 @@
 import React from "react";
-import logo from "../../assets/kaagaz_logo.jpg";
+import logo from "../../assets/logo.png";
 import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -21,42 +22,48 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className=" bg-gray-800 navbar justify-between fixed top-0  left-0 w-screen display  shadow-md px-6  overflow-hidden z-50">
+      <div className=" bg-white navbar justify-between fixed top-0  left-0 w-screen display  shadow-md px-6  overflow-hidden z-50">
         <div className="navbar-start gap-2  ">
-          <img className="md:w-12 w-7 logo_image" src={logo} alt="logo" />
-          <div className="flex md:max-w-[12vw] max-w-fit kite  overflow-hidden">
+          <img className="md:w-12 w-7 good logo_image" src={logo} alt="logo" />
+          <div className="flex md:max-w-[12vw] max-w-fit  overflow-hidden">
             {" "}
-            <a className="md:h-[4vh] h-[3.3vh] max-w-fit font-bold md:text-xl text-lg border-none  text-white bg-none title">
-              KaagazPrints{" "}
-              <a className="  md:text-xl text-lg  text-white border-none  titles ">
-                KaagazPrints
-              </a>
-            </a>
+            <Link
+              to="/"
+              className="md:h-[4vh] h-[3.3vh] max-w-fit font-bold md:text-xl text-lg border-none  text-black bg-none"
+            >
+              KaagazPrints
+            </Link>
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex items-center ">
-          <ul className="menu menu-horizontal shadow-none px-1 gap-3">
-            <li className=" flex flex-col gdf overflow-hidden w-20 h-9">
-              <a className="text-white test w-full  ">Home</a>
-              <a className="text-white bag w-full">Home</a>
+        <div className="navbar-center justify-between hidden lg:flex items-center">
+          <ul className=" menu-horizontal shadow-none px-1 gap-3 ">
+            <li className=" overflow-hidden  flex items-center justify-center w-20 h-9 hover:font-bold ">
+              <a className="text-black w-full hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+                Home
+              </a>
             </li>
-            <li className="flex flex-col gdf overflow-hidden w-28 h-9 ">
+            <li className=" overflow-hidden w-20 h-9 flex items-center justify-center  hover:font-bold">
               {" "}
-              <a className="text-white test ">About Us</a>
-              <a className="text-white bag   ">About Us</a>
+              <a className=" text-black w-full hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+                About Us
+              </a>
             </li>
-            <li className="flex flex-col gdf overflow-hidden w-20 h-9">
-              <a className=" text-white test">Services </a>
-              <a className=" text-white bag ">Services </a>
+            <li className="overflow-hidden w-20 h-9 flex items-center justify-center  hover:font-bold">
+              <a className=" text-black w-full hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+                Services{" "}
+              </a>
             </li>
           </ul>
         </div>
 
         <div className="navbar-end justify-end">
-          <div className="navbar-end hidden lg:flex items-center">
-            <a className="btn  border-purple-400 bg-purple-700 text-white  hover:text-white  hover:bg-purple-500 shadow-slate-500 text-lg ">
+          <div className="navbar-end h-6 hidden lg:flex items-center">
+            <Link
+              to={"/"}
+              className="btn h-5 text-center bg-pink-700 text-white  hover:text-white  hover:bg-pink-500 shadow-slate-500 text-lg "
+            >
               Contact Us
-            </a>
+            </Link>
           </div>
           <div className="drawer drawer-end md:hidden justify-end">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
