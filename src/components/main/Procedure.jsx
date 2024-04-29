@@ -1,7 +1,7 @@
 import React from "react";
-import Phoneimg from "../sub/Phoneimg";
+// import Phoneimg from "../sub/Phoneimg";
 // import Women from "../../../assets/Standing_woman.jpg";
-
+import video from "../../assets/videos/swigy_video.mp4";
 export default function Procedure() {
   return (
     <div className="w-full  flex items-center justify-center">
@@ -39,16 +39,14 @@ export default function Procedure() {
         </div> */}
         <div className="right mt-7">
           <div className="mockup-phone">
-            <div className="camera"></div>
-            <div className="display h-[500px] w-[280px]">
+            {/* <div className="camera"></div> */}
+            <div className="display h-[610px] w-[290px] ">
 
-              <div className="artboard artboard-demo phone-1 object-cover w-[100%] h-[100%]">
-                <div className="mockup-browser border bg-base-300">
-                  <div className="mockup-browser-toolbar">
-                    <div className="input">https://KaagazPrints.com</div>
-                  </div>
+              <div className="artboard artboard-demo phone-1 object-cover w-[100%] h-[100%] mt-9 pr-7 ">
+                <div className="mockup-browser border bg-slate-400">
+                  
                 </div>
-                <Phoneimg />
+                <video src={video} autoPlay loop muted></video>
               </div>
             </div>
           </div>

@@ -11,7 +11,7 @@ const Home = () => {
       <Procedure/>
       <Process />
       <About/>
-      <Seal/>
+      {/* <Seal/> */}
     </div>
   )
 }

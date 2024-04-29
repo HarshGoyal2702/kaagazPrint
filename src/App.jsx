@@ -5,7 +5,7 @@ import Page2 from "./pages/Page2"
 function App() {
   return <Router>
     <Routes>
-      <Route path='/' element={<Main />} />
+      <Route path='/' element={<Main />} exact />
       <Route path="/terms" element={<Page2 />} />
     </Routes>
   </Router>

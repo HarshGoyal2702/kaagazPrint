@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import TBanner from '../components/Terms/TBanner'
 import A_of_Terms from '../components/sub/A_of_Terms'
 import ServicesOverview from '../components/sub/ServicesOverview'
@@ -34,4 +34,4 @@ const Page2 = () => {
   )
 }
 
-export default Page2
+export default Page2;

@@ -17,7 +17,7 @@ const sqaureVariant = {
 };
 const Banner = () => {
   return (
-    <div className="  bg-[#F1F5FE]  h-auto md:text-wrap w-screen  flex flex-col md:flex-row items-center justify-between p-20  pt-32 md:p-36">
+    <div className="  bg-[#fff]  h-auto md:text-wrap w-screen border-b-2 flex flex-col md:flex-row items-center justify-between p-20  pt-32 md:p-36">
       <div
         className="left flex flex-col md:font-light w-full md:w-[50%]"
       >
