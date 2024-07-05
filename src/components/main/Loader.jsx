@@ -135,7 +135,7 @@ return (
         </div>
         <div className="overlay-div ">
           <h1 className="md:text-6xl text-3xl">
-            Kagaz<span className="text-gray-500">Prints</span>
+            Kaagaz<span className="text-gray-500">Print</span>
           </h1>
           <div className="scroll-down">
             <h3 className=" md:text-xl text-sm">SCROLL DOWN</h3>
