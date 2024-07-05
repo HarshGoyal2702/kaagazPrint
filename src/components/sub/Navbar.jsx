@@ -31,7 +31,7 @@ const Navbar = () => {
               to="/"
               className="md:h-[4vh] h-[3.3vh] max-w-fit font-bold md:text-xl text-lg border-none  text-black bg-none"
             >
-              KaagazPrints
+              KaagazPrint
             </Link>
           </div>
         </div>
