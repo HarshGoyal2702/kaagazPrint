@@ -61,12 +61,12 @@ const Navbar = ({ scrollToSection }) => {
 
         <div className="navbar-end justify-end">
           <div className="navbar-end  hidden lg:flex items-center">
-            <Link
+            <a href="tel:+91 9541979547"
               
               className="btn  text-center bg-pink-700 text-white  hover:text-white  hover:bg-pink-500 shadow-slate-500 b  "
             >
               Contact Us
-            </Link>
+            </a>
           </div>
           <div className="drawer drawer-end md:hidden justify-end">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle  " />
@@ -95,10 +95,10 @@ const Navbar = ({ scrollToSection }) => {
                   </li>
                   <li>
                     {" "}
-                    <a className="">About Us</a>
+                    <Link to="#about" onClick={() => handleClick('about')}>About Us</Link>
                   </li>
                   <li>
-                    <a className="">Services </a>
+                    <Link to="#process" onClick={() => handleClick('about')}>Services </Link>
                   </li>
                 </ul>
               </ul>
