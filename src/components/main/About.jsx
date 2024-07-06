@@ -1,11 +1,17 @@
 // import React from "react";
 import pic1 from "../../assets/Loader/pic1.jpg";
 import pic2 from "../../assets/Loader/pic2.jpg";
-// import pic3 from "../../assets/Loader/pic3.jpg";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
-    <div className="w-full md:h-screen h-[1700px] flex flex-col overflow-hidden justify-evenly bg-[#F1F5FE]  md:flex-row  ">
+    
+    <div id="about" className="w-full md:h-screen h-[720px] flex flex-col overflow-hidden justify-evenly bg-[#F1F5FE]  md:flex-row  ">
+      <Helmet>
+        <title>Kaagazprint - Online Document Printing Services</title>
+        <meta name="description" content="Print your documents online with Kaagaz Print. Affordable prices, high-quality prints, and easy online payment." />
+        <meta name="keywords" content="online document printing, print documents online, affordable print services, high-quality prints" />
+      </Helmet>
       <div className="left  md:w-[50%]  md:h-screen  w-[0] h-[0]  ">
         <div className="relative w-[50%] h-[50%] top-[50%] left-[50%]">
           <div className="md:w-[260px]  h-0 w-0  absolute object-contain right-[30%] rounded-xl -top-[20%] md:h-[350px] bg-blue-500">
@@ -33,7 +39,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" right  flex items-center justify-center m-auto mt-5 h-auto   w-[50%] p-16 h-screen border-l-2 border-solid  ">
+      <div className=" right flex items-center justify-center m-auto mt-5   w-[50%] p-16 h-screen  ">
         <div className="flex gap-2 flex-col items-center justify-center w-screen ">
           <div className="w-60 h-9 text-[2.5vh] md:text-sm font-bold shadow-sm bg-white rounded-full text-center flex items-center justify-center gap-1 text-black">
             <span className="text-center text-2xl font-bold text-red-400">
@@ -74,32 +80,24 @@ const About = () => {
                 </defs>
               </svg>
             </div>
-            <div className="flex flex-col gap-5">
-              <div className="md:w-full w-[110%]  hover:scale-105 transition-all ease h-22 flex items-start md:flex-col flex-row flex-wrap justify-center rounded-xl p-4 bg-white shadow-lg">
-                {" "}
-                <h1 className="text-black text-xl">Print</h1>
-                <p>
-                  We are a small business who deliver Best Quality Prints with
-                  affordable prices and tr
-                </p>
-              </div>
-              <div className="md:w-full w-[110%] hover:scale-105 transition-all ease h-22 flex items-start flex-col justify-center rounded-xl p-4 bg-white shadow-lg">
-                {" "}
-                <h1 className="text-red-600 font-semibold text-xl">Deliver</h1>
-                <p>
-                  We are a small business who deliver Best Quality Prints with
-                  affordable prices and tr
-                </p>
-              </div>
-              <div className="md:w-full w-[110%] hover:scale-105 transition-all ease h-22 flex items-start flex-col justify-center rounded-xl p-4 bg-white shadow-lg">
-                {" "}
-                <h1 className="text-black text-xl">Trust</h1>
-                <p>
-                  We are a small business who deliver Best Quality Prints with
-                  affordable prices and tr
-                </p>
-              </div>
+            <div className="flex flex-col gap-5 p-4">
+        <div className="flex flex-col md:flex-row gap-5">
+          <div className="flex flex-col gap-5 w-full">
+            <div className="w-full hover:scale-105 transition-all ease h-22 flex items-start flex-col md:flex-row flex-wrap justify-center rounded-xl p-4 bg-white shadow-lg">
+              <h1 className="text-black text-xl">Print</h1>
+              <p>We are a small business delivering high-quality prints at affordable prices.</p>
             </div>
+            <div className="w-full hover:scale-105 transition-all ease h-22 flex items-start flex-col justify-center rounded-xl p-4 bg-white shadow-lg">
+              <h1 className="text-pink-600 font-semibold text-xl">Deliver</h1>
+              <p>We provide quick and reliable delivery services for all your printed documents.</p>
+            </div>
+            <div className="w-full hover:scale-105 transition-all ease h-22 flex items-start flex-col justify-center rounded-xl p-4 bg-white shadow-lg">
+              <h1 className="text-black text-xl">Trust</h1>
+              <p>Trust us to handle your documents with care and professionalism.</p>
+            </div>
+          </div>
+        </div>
+      </div>
           </div>
         </div>
       </div>

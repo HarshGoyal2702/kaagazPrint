@@ -5,8 +5,11 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 
-const Navbar = () => {
 
+const Navbar = ({ scrollToSection }) => {
+  const handleClick = (id) => {
+    scrollToSection(id);
+  };
   const Sidebar = () => {
     return (
       <div className="bg-gray-800 h-screen w-64 text-white">
@@ -44,14 +47,14 @@ const Navbar = () => {
             </li>
             <li className=" overflow-hidden w-20 h-9 flex items-center justify-center  hover:font-bold">
               {" "}
-              <a className=" text-black w-text hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+              <Link to="#about" onClick={() => handleClick('about')} className=" text-black w-text hover:text-pink-600 hover:border-b-2 border-pink-600 ">
                 About Us
-              </a>
+              </Link>
             </li>
             <li className="overflow-hidden w-20 h-9 flex items-center justify-center  hover:font-bold">
-              <a className=" text-black w-text hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+              <Link to="#process"  onClick={() => handleClick('process')} className=" text-black w-text hover:text-pink-600 hover:border-b-2 border-pink-600 ">
                 Services{" "}
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -59,7 +62,7 @@ const Navbar = () => {
         <div className="navbar-end justify-end">
           <div className="navbar-end  hidden lg:flex items-center">
             <Link
-              to={"/"}
+              
               className="btn  text-center bg-pink-700 text-white  hover:text-white  hover:bg-pink-500 shadow-slate-500 b  "
             >
               Contact Us

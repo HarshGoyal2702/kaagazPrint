@@ -1,20 +1,8 @@
 import { FaDownload } from "react-icons/fa6";
 import print3 from "../../assets/home-printer-based-toner.jpg";
 import Typewriter from "typewriter-effect";
-import { motion } from "framer-motion";
 
-const variants = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: { staggerChildren: 0.25 },
-  },
-};
 
-const sqaureVariant = {
-  hidden: { opacity: 0 },
-  show: { opacity: 1 },
-};
 const Banner = () => {
   return (
     <div className="  bg-[#fff]  h-auto md:text-wrap w-screen border-b-2 flex flex-col md:flex-row items-center justify-between  p-14  pt-32 md:p-36">
