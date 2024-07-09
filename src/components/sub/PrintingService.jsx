@@ -7,11 +7,11 @@ const PrintingService = () => {
       
       <div className="text-base">
         <p>
-          KagazPrints offers convenient printing services to meet your document needs. Before availing our printing services, please read and understand the following terms and conditions:
+          KaagazPrint offers convenient printing services to meet your document needs. Before availing of our printing services, please read and understand the following terms and conditions:
         </p>
         <ul className="list-disc ml-6 my-4 flex flex-col gap-2">
           <li>
-            For printing services, customers are required to upload their documents in printable format on the KagazPrints platform.
+            For printing services, customers are required to upload their documents in printable format on the KaagazPrint platform.
           </li>
           <li>
             Customers agree not to upload any illegal, prohibited, or inappropriate material for printing.
@@ -23,7 +23,7 @@ const PrintingService = () => {
             We do not store any uploaded documents. Once printing is complete, documents are automatically deleted from our servers.
           </li>
           <li>
-            Customers will be charged printing fees, delivery charges, and other applicable fees as reflected at the time of availing printing services. Payment must be made in advance.
+            Customers will be charged printing fees, delivery charges, and other applicable fees as reflected at the time of availing of printing services. Payment must be made in advance.
           </li>
           <li>
             We reserve the right to change fees at any time without prior notice.
@@ -38,7 +38,7 @@ const PrintingService = () => {
             By uploading documents for printing, customers consent to the collection, storage, retention, and usage of such information for printing purposes.
           </li>
           <li>
-            Customers acknowledge that the use of our printing services is at their own risk and they are responsible for exercising prudent judgement when using the KagazPrints platform.
+            Customers acknowledge that the use of our printing services is at their own risk and they are responsible for exercising prudent judgment when using the KaagazPrint platform.
           </li>
         </ul>
       </div>
