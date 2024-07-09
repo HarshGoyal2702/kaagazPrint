@@ -8,7 +8,7 @@ const ServicesOverview = () => {
         <div className="bg-gray-100 p-6 rounded-lg">
           <h2 className="text-xl font-semibold mb-4">Online Printing Services</h2>
           <p className="text-base mb-4">
-            KagazPrints offers a wide range of online printing services for
+            KaagazPrint offers a wide range of online printing services for
             individuals and businesses. Whether you need documents, flyers,
             brochures, posters, or any other printed materials, we've got you
             covered.
@@ -20,7 +20,7 @@ const ServicesOverview = () => {
             times and competitive pricing.
           </p>
           <p className="text-base">
-            With KagazPrints, you can trust that your printing needs will be
+            With KaagazPrint, you can trust that your printing needs will be
             met efficiently and professionally.
           </p>
         </div>
@@ -38,7 +38,7 @@ const ServicesOverview = () => {
             or an individual user, there's a subscription plan for you.
           </p>
           <p className="text-base">
-            Sign up for a KagazPrints subscription today and streamline your
+            Sign up for a KaagazPrint subscription today and streamline your
             printing process while saving money.
           </p>
         </div>
@@ -55,14 +55,14 @@ const ServicesOverview = () => {
             time, every time.
           </p>
           <p className="text-base">
-            With KagazPrints, you can expect hassle-free delivery and shipping
+            With KaagazPrint, you can expect hassle-free delivery and shipping
             for all your printing needs.
           </p>
         </div>
         <div className="bg-gray-100 p-6 rounded-lg">
           <h2 className="text-xl font-semibold mb-4">Data Security and Privacy</h2>
           <p className="text-base mb-4">
-            At KagazPrints, we prioritize the security and privacy of your
+            At KaagazPrint, we prioritize the security and privacy of your
             personal and sensitive information.
           </p>
           <p className="text-base mb-4">
@@ -72,7 +72,7 @@ const ServicesOverview = () => {
             information is safe with us.
           </p>
           <p className="text-base">
-            Trust KagazPrints for secure and confidential online printing
+            Trust KaagazPrint for secure and confidential online printing
             services.
           </p>
         </div>
