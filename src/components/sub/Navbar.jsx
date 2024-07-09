@@ -52,7 +52,7 @@ const Navbar = ({ scrollToSection }) => {
               </Link>
             </li>
             <li className="overflow-hidden w-20 h-9 flex items-center justify-center  hover:font-bold">
-              <Link to="#process"  onClick={() => handleClick('process')} className=" text-black w-text hover:text-pink-600 hover:border-b-2 border-pink-600 ">
+              <Link to="#process" onClick={() => handleClick('process')} className=" text-black w-text hover:text-pink-600 hover:border-b-2 border-pink-600 ">
                 Services{" "}
               </Link>
             </li>
@@ -62,7 +62,7 @@ const Navbar = ({ scrollToSection }) => {
         <div className="navbar-end justify-end">
           <div className="navbar-end  hidden lg:flex items-center">
             <a href="tel:+91 9541979547"
-              
+
               className="btn  text-center bg-pink-700 text-white  hover:text-white  hover:bg-pink-500 shadow-slate-500 b  "
             >
               Contact Us
@@ -99,6 +99,11 @@ const Navbar = ({ scrollToSection }) => {
                   </li>
                   <li>
                     <Link to="#process" onClick={() => handleClick('about')}>Services </Link>
+                  </li>
+                  <li>
+                    <a href="tel:+91 9541979547">
+                      Contact Us
+                    </a>
                   </li>
                 </ul>
               </ul>

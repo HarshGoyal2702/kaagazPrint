@@ -14,7 +14,7 @@ const Process = () => {
                     <div className="timeline-start md:text-end mb-10 p-5">
                         <time className="font-mono italic">STEP 1</time>
                         <div className="text-lg font-black">Login/Register</div>
-                        you can simply login/register youself to our website with fully functional email and password authentication. and gmail validation
+                        You can easily register or log in to our website with fully functional email and password authentication, including Gmail validation.
                     </div>
                     <hr />
                 </li>
@@ -26,7 +26,7 @@ const Process = () => {
                     <div className="timeline-end mb-10  p-5 rounded">
                         <time className="font-mono italic">Step 2</time>
                         <div className="text-lg font-black">Upload Document</div>
-                        The document can be of .jpg, .png , .pdf, .word we deliver any document format to the desired destination.
+                        We accept documents in various formats, including .jpg, .png, .pdf, and .docx. We deliver any document format to your desired destination.
                     </div>
                     <hr />
                 </li>
@@ -38,7 +38,7 @@ const Process = () => {
                     <div className="timeline-start md:text-end mb-10 p-5">
                         <time className="font-mono italic">Step 3</time>
                         <div className="text-lg font-black">Adjust Requirements</div>
-                        If you have any kind of adjustments and Requirements regarding your printing document then you can select the options on the screen.
+                        If you have any specific adjustments or requirements for your printing document, you can select the options on the screen.
                     </div>
                     <hr />
                 </li>
@@ -50,7 +50,7 @@ const Process = () => {
                     <div className="timeline-end mb-10 p-5">
                         <time className="font-mono italic">Step 4</time>
                         <div className="text-lg font-black">Payment Proceeding</div>
-                        After successfully uploading your document to the app and adjust the requirements now you are to pay the payment the additional delivery charges will be add on.
+                        After successfully uploading your document to the app and adjusting the requirements, you can proceed to payment. Additional delivery charges will be added.
                     </div>
                     <hr />
                 </li>
@@ -62,7 +62,7 @@ const Process = () => {
                     <div className="timeline-start md:text-end mb-10 p-5 -mt-8">
                         <time className="font-mono italic">Step 5</time>
                         <div className="text-lg font-black">Order Placed</div>
-                        Now the Order is placed and you can simply wait  for your order to be processed. You will receive it shortly
+                        Once the order is placed, you can simply wait for your order to be processed. You will receive it shortly.
                     </div>
                     <hr />
                 </li>

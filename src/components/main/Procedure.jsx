@@ -1,6 +1,6 @@
 import React from "react";
 import Phoneimg from "../sub/Phoneimg";
-import {FaSearch} from "react-icons/fa"
+import { FaSearch } from "react-icons/fa"
 
 export default function Procedure() {
   return (
@@ -8,22 +8,21 @@ export default function Procedure() {
       <div className="w-full container  p-10 pt-7 bg-white md:text-wrap  flex flex-col md:flex-row items-center justify-evenly ">
         <div className="left flex flex-col">
           <div className="mt-5 text-3xl text-black font-semibold">
-            Just get your Prints in 4 simple steps
+            Get Your Prints in 4 Simple Steps
           </div>
           <div className="mt-3 text-left text-slate-600">
-            You just have to simply upload a document in our application and you
-            will
+            Simply upload a document to our application and follow these steps:
             <div className="font-medium text-slate-700 mt-3 mb-2">
-              Step 1 : Download our application
+              Step 1: Download our application.
             </div>
             <div className="font-medium text-slate-700 mt-3 mb-2">
-              Step 2 : Upload your documents in any format like .pdf etc.
+              Step 2: Upload your documents in any format, such as .pdf, etc.
             </div>
             <div className="font-medium text-slate-700 mt-3 mb-2">
-              Step 3 : Select your pages and prices
+              Step 3: Select your pages and set your preferences.
             </div>
             <div className="font-medium text-slate-700 mt-3 mb-2">
-              Step 4 : Pay with upi or bank
+              Step 4: Pay via UPI or bank transfer.
             </div>
           </div>
         </div>
@@ -49,7 +48,7 @@ export default function Procedure() {
                 {/* <video src={video} autoPlay loop muted></video> */}
                 <div className="mockup-browser absolute top-5 left-1 bg-base-300  border w-[100%]">
                   <div className="mockup-browser border-r-8 w-[90%]">
-                    <div className="input h-8 flex gap-2 items-center"><FaSearch/>https://kaagazprint.com</div>
+                    <div className="input h-8 flex gap-2 items-center"><FaSearch />https://kaagazprint.com</div>
                   </div>
                 </div>
                 <Phoneimg />

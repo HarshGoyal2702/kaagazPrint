@@ -42,15 +42,14 @@ const About = () => {
       <div className=" right flex items-center justify-center m-auto mt-5   w-[50%] p-16 h-screen  ">
         <div className="flex gap-2 flex-col items-center justify-center w-screen ">
           <div className="w-60 h-9 text-[2.5vh] md:text-sm font-bold shadow-sm bg-white rounded-full text-center flex items-center justify-center gap-1 text-black">
-            <span className="text-center text-2xl font-bold text-red-400">
+            <span className="text-center text-xl font-bold text-red-400">
               _
             </span>{" "}
-            Company Details
+            Who We Are
           </div>
           <div className="flex gap-4 flex-col items-center justify-center ">
             <p className="font-sans text-center text-black">
-              We are a small business who deliver Best Quality Prints <br />
-              with affordable prices and trust!!
+            We are a business delivering high-quality prints at affordable prices, with a commitment to trust and reliability!!
             </p>
             <div className="flex justify-center">
               <svg
@@ -83,13 +82,13 @@ const About = () => {
             <div className="flex flex-col gap-5 p-4">
         <div className="flex flex-col md:flex-row gap-5">
           <div className="flex flex-col gap-5 w-full">
-            <div className="w-full hover:scale-105 transition-all ease h-22 flex items-start flex-col md:flex-row flex-wrap justify-center rounded-xl p-4 bg-white shadow-lg">
+            <div className="w-full hover:scale-105 transition-all ease h-22 flex items-start flex-col justify-center rounded-xl p-4 bg-white shadow-lg">
               <h1 className="text-black text-xl">Print</h1>
-              <p>We are a small business delivering high-quality prints at affordable prices.</p>
+              <p>We are a dedicated business delivering high-quality prints at affordable prices.</p>
             </div>
             <div className="w-full hover:scale-105 transition-all ease h-22 flex items-start flex-col justify-center rounded-xl p-4 bg-white shadow-lg">
               <h1 className="text-pink-600 font-semibold text-xl">Deliver</h1>
-              <p>We provide quick and reliable delivery services for all your printed documents.</p>
+              <p>We offer quick and reliable delivery services for all your printed documents.</p>
             </div>
             <div className="w-full hover:scale-105 transition-all ease h-22 flex items-start flex-col justify-center rounded-xl p-4 bg-white shadow-lg">
               <h1 className="text-black text-xl">Trust</h1>
