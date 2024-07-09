@@ -2,14 +2,14 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="bg-white sm:flex block  items-center justify-center min-h-full text-bold">
-      <div className="container mx-auto px-4 py-8 text-black flex justify-between  rounded-md">
+    <div className="bg-white sm:flex block items-center justify-center min-h-full text-bold">
+      <div className="container mx-auto px-4 py-8 text-black flex justify-between rounded-md">
         <div className="flex items-center mr-10 flex-col">
           <h1 className="font-bold text-3xl text-center mb-4 capitalize">
             Pricing
           </h1>
           <p className="mt-2">
-            <span>Pricing Policy</span> At KagazPrints, we are dedicated to
+            <span>Pricing Policy:</span> At KaagazPrint, we are dedicated to
             providing our customers with top-quality printing services at
             competitive prices. Our pricing policy reflects our commitment to
             accuracy, transparency, and customer satisfaction.
@@ -17,7 +17,7 @@ const Pricing = () => {
         </div>
         <ul>
           <li className="mb-6">
-            <h2 className="font-bold text-2xl"> Our Commitment</h2>
+            <h2 className="font-bold text-2xl">Our Commitment</h2>
             <ol>
               <li>
                 <h3 className="font-semibold leading-9">Accuracy</h3>
@@ -56,7 +56,7 @@ const Pricing = () => {
           <li>
             <h2 className="font-bold text-2xl">Updates & Amendments</h2>
             <p>
-              <h3 className="font-semibold leading-9">Dynamic Pricing</h3>{" "}
+              <h3 className="font-semibold leading-9">Dynamic Pricing</h3>
               Prices may be subject to change based on factors such as material
               costs, printing technology upgrades, and other market influences.
               We will strive to keep you informed of any changes to our pricing
@@ -67,8 +67,8 @@ const Pricing = () => {
               before proceeding.
               <h3 className="font-semibold leading-8">
                 Your Satisfaction, Our Priority
-              </h3>{" "}
-              Your satisfaction is our top priority at KagazPrints. If you have
+              </h3>
+              Your satisfaction is our top priority at KaagazPrint. If you have
               any questions or concerns about our pricing or if you notice any
               discrepancies, please don't hesitate to reach out to our Customer
               Support team. We are here to assist you and ensure that you have a
