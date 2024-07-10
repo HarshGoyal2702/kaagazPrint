@@ -11,10 +11,14 @@ import PrintingService from '../components/sub/PrintingService'
 import License from '../components/sub/License'
 import Navbar from '../components/sub/Navbar'
 import Footer from "../components/main/Footer"
+import { useEffect } from 'react'
 
 
 
 const Page2 = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
   return (
     <div>
       <Navbar/>
